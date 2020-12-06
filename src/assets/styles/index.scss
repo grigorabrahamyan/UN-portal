@@ -1,0 +1,43 @@
+@import 'fonts';
+@import 'variables';
+@import 'animations';
+
+// Vendors
+@import 'vendor/bootstrap';
+@import 'vendor/datepicker';
+
+// Components
+@import 'components/organizedActionsItem';
+@import 'components/imageUpload';
+@import 'components/donorItem';
+@import 'components/loader';
+@import 'components/table';
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/header';
+@import 'components/title';
+@import 'components/form';
+@import 'components/slider';
+@import 'components/footer';
+@import 'common';
+@import 'components/arrow_up';
+@import 'components/arrow_down';
+@import 'components/map';
+@import 'components/header';
+
+// Pages/
+@import 'pages/header';
+@import 'pages/donate';
+@import 'pages/social_workers';
+@import 'pages/testimonials';
+@import 'pages/description';
+@import 'pages/home/home';
+@import 'pages/partners';
+@import 'pages/donors';
+@import 'pages/call';
+@import 'pages/sale';
+@import 'pages/goal';
+@import 'pages/links';
+@import 'pages/upComingNews';
+@import 'pages/upComingAkcia';
+@import 'pages/reservedPoints';

@@ -1,0 +1,98 @@
+.upComingNews__contant {
+    padding: 5.3% 0;
+}
+
+.upComingNews__title {
+    margin-bottom: 60px;
+}
+
+// .upComingNews__cardsWrapper:nth-last-child(1),
+// .upComingNews__cardsWrapper:nth-last-child(2),
+// .upComingNews__cardsWrapper:nth-last-child(3) {
+//     .card {
+//         margin-bottom: 0;
+//     }
+// }
+
+.pagination__wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination__body {
+    display: flex;
+    align-items: center;
+    color: var(--color-cbcbcb);
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.pagination__item {
+    margin-right: 20px;
+    p {
+        cursor: pointer;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+    &.active {
+        color: var(--color-7bc25a);
+    }
+}
+
+.pagination__arrowLeft {
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 4px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-right: 8px solid var(--color-cbcbcb);
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 7px;
+        left: 3px;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-right: 5px solid var(--color-ffffff);
+    }
+}
+
+.pagination__arrowRight {
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 4px;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 8px solid var(--color-cbcbcb);
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 7px;
+        right: 3px;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid var(--color-ffffff);
+    }
+}

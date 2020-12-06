@@ -1,0 +1,22 @@
+.arrow__down-wrapper {
+    position: absolute;
+    top: 0;
+}
+
+.arrow__down {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin-left: 25px;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 90px solid transparent;
+        border-right: 90px solid transparent;
+        border-top: 45px solid var(--color-ffffff);
+    }
+}

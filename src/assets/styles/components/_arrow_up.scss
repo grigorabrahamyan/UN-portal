@@ -1,0 +1,18 @@
+.arrow__up-wrapper {
+    position: relative;
+    z-index: 15;
+}
+
+.arrow__up {
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 90px solid transparent;
+        border-right: 90px solid transparent;
+        border-bottom: 45px solid var(--color-ffffff);
+    }
+}

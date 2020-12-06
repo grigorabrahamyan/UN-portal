@@ -1,0 +1,67 @@
+.call__wrapper {
+    position: fixed;
+    height: 120px;
+    width: 240px;
+    background-color: var(--color-7bc25a);
+    top: 260px;
+    right: 0;
+    z-index: 10;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        animation-name: call;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+    }
+}
+
+.call__icon {
+    width: 60px;
+    margin-left: 40px;
+    margin-right: 10px;
+    img {
+        width: 100%;
+    }
+}
+
+.call__info {
+    color: var(--color-ffffff);
+}
+
+.call__text {
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 2.31rem;
+}
+
+.call__numberWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // display: none;
+    .call__numberIcon {
+        width: 15px;
+        .phoneIcon {
+            width: 100%;
+            fill: var(--color-ffffff);
+        }
+    }
+    .call__number {
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 1.44rem;
+    }
+}
+
+@keyframes call {
+    0% {
+        width: 240px;
+    }
+    100% {
+        width: 340px;
+    }
+}

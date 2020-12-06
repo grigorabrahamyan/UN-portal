@@ -1,0 +1,35 @@
+.donor-item {
+  border-radius: 5px;
+  border: solid 2px var(--white);
+  background-color: rgba(246, 246, 246, 0.5);
+  // border-left: 10px solid var(--sage);
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 35px;
+  margin-bottom: 20px;
+  position: relative;
+  &:after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--sage);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  h6,p  {
+    color: var(--greyish-brown);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    font-family: $font-family-base;
+  }
+  p{
+    margin: 10px 0;
+  }
+}

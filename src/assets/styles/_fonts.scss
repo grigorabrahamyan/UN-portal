@@ -1,0 +1,162 @@
+// @font-face {
+//   font-family: 'fire-icons';
+//   src: url('../fonts/fire-icons.eot?aq7zyp');
+//   src: url('../fonts/fire-icons.eot?aq7zyp#iefix') format('embedded-opentype'),
+//     url('../fonts/fire-icons.ttf?aq7zyp') format('truetype'), url('../fonts/fire-icons.woff?aq7zyp') format('woff'),
+//     url('../fonts/fire-icons.svg?aq7zyp#fire-icons') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: block;
+// }
+
+@font-face {
+	font-family: 'Montserrat arm';
+	src: url('../fonts/Montserratarm-Black.eot');
+	src: local('☺'), url('../fonts/Montserratarm-Black.woff') format('woff'), url('../fonts/Montserratarm-Black.ttf') format('truetype'), url('../fonts/Montserratarm-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm';
+	src: url('../fonts/Montserratarm-Bold.eot');
+	src: local('☺'), url('../fonts/Montserratarm-Bold.woff') format('woff'), url('../fonts/Montserratarm-Bold.ttf') format('truetype'), url('../fonts/Montserratarm-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm';
+	src: url('../fonts/Montserratarm-ExtraBold.eot');
+	src: local('☺'), url('../fonts/Montserratarm-ExtraBold.woff') format('woff'), url('../fonts/Montserratarm-ExtraBold.ttf') format('truetype'), url('../fonts/Montserratarm-ExtraBold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm';
+	src: url('../fonts/Montserratarm-ExtraLight.eot');
+	src: local('☺'), url('../fonts/Montserratarm-ExtraLight.woff') format('woff'), url('../fonts/Montserratarm-ExtraLight.ttf') format('truetype'), url('../fonts/Montserratarm-ExtraLight.svg') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm';
+	src: url('../fonts/Montserratarm-Light.eot');
+	src: local('☺'), url('../fonts/Montserratarm-Light.woff') format('woff'), url('../fonts/Montserratarm-Light.ttf') format('truetype'), url('../fonts/Montserratarm-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm';
+	src: url('../fonts/Montserratarm-Medium.eot');
+	src: local('☺'), url('../fonts/Montserratarm-Medium.woff') format('woff'), url('../fonts/Montserratarm-Medium.ttf') format('truetype'), url('../fonts/Montserratarm-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm';
+	src: url('../fonts/Montserratarm-Regular.eot');
+	src: local('☺'), url('../fonts/Montserratarm-Regular.woff') format('woff'), url('../fonts/Montserratarm-Regular.ttf') format('truetype'), url('../fonts/Montserratarm-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm';
+	src: url('../fonts/Montserratarm-SemiBold.eot');
+	src: local('☺'), url('../fonts/Montserratarm-SemiBold.woff') format('woff'), url('../fonts/Montserratarm-SemiBold.ttf') format('truetype'), url('../fonts/Montserratarm-SemiBold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm';
+	src: url('../fonts/Montserratarm-Thin.eot');
+	src: local('☺'), url('../fonts/Montserratarm-Thin.woff') format('woff'), url('../fonts/Montserratarm-Thin.ttf') format('truetype'), url('../fonts/Montserratarm-Thin.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm2';
+	src: url('../fonts/Montserratarm2-Black.eot');
+	src: local('☺'), url('../fonts/Montserratarm2-Black.woff') format('woff'), url('../fonts/Montserratarm2-Black.ttf') format('truetype'), url('../fonts/Montserratarm2-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm2';
+	src: url('../fonts/Montserratarm2-Bold.eot');
+	src: local('☺'), url('../fonts/Montserratarm2-Bold.woff') format('woff'), url('../fonts/Montserratarm2-Bold.ttf') format('truetype'), url('../fonts/Montserratarm2-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm2';
+	src: url('../fonts/Montserratarm2-ExtraBold.eot');
+	src: local('☺'), url('../fonts/Montserratarm2-ExtraBold.woff') format('woff'), url('../fonts/Montserratarm2-ExtraBold.ttf') format('truetype'), url('../fonts/Montserratarm2-ExtraBold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm2';
+	src: url('../fonts/Montserratarm2-ExtraLight.eot');
+	src: local('☺'), url('../fonts/Montserratarm2-ExtraLight.woff') format('woff'), url('../fonts/Montserratarm2-ExtraLight.ttf') format('truetype'), url('../fonts/Montserratarm2-ExtraLight.svg') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm2';
+	src: url('../fonts/Montserratarm2-Light.eot');
+	src: local('☺'), url('../fonts/Montserratarm2-Light.woff') format('woff'), url('../fonts/Montserratarm2-Light.ttf') format('truetype'), url('../fonts/Montserratarm2-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm2';
+	src: url('../fonts/Montserratarm2-Medium.eot');
+	src: local('☺'), url('../fonts/Montserratarm2-Medium.woff') format('woff'), url('../fonts/Montserratarm2-Medium.ttf') format('truetype'), url('../fonts/Montserratarm2-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm2';
+	src: url('../fonts/Montserratarm2-Regular.eot');
+	src: local('☺'), url('../fonts/Montserratarm2-Regular.woff') format('woff'), url('../fonts/Montserratarm2-Regular.ttf') format('truetype'), url('../fonts/Montserratarm2-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm2';
+	src: url('../fonts/Montserratarm2-SemiBold.eot');
+	src: local('☺'), url('../fonts/Montserratarm2-SemiBold.woff') format('woff'), url('../fonts/Montserratarm2-SemiBold.ttf') format('truetype'), url('../fonts/Montserratarm2-SemiBold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat arm2';
+	src: url('../fonts/Montserratarm2-Thin.eot');
+	src: local('☺'), url('../fonts/Montserratarm2-Thin.woff') format('woff'), url('../fonts/Montserratarm2-Thin.ttf') format('truetype'), url('../fonts/Montserratarm2-Thin.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/AndroidClock_Solid.eot');
+	src: local('☺'), url('../fonts/AndroidClock_Solid.woff') format('woff'), url('../fonts/AndroidClock_Solid.ttf') format('truetype'), url('../fonts/AndroidClock_Solid.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}

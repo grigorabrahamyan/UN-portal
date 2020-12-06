@@ -1,0 +1,92 @@
+.paperInfo__contant {
+    padding: 5.3% 0;
+}
+
+.paperInfo__title {
+    margin-bottom: 60px;
+}
+
+.paperInfo__bodyWrapper {
+
+}
+
+.paperInfo__body {
+
+}
+
+.paperInfo__item {
+
+}
+
+.pdfItem {
+
+}
+
+.pdfItem__wrapper {
+    height: 260px;
+    box-shadow: 5px 5px 25px #0000001A;
+    margin-bottom: 50px;
+}
+
+.noPadding:nth-last-child(1),
+.noPadding:nth-last-child(2),
+.noPadding:nth-last-child(3) {
+    .pdfItem__wrapper {
+        margin-bottom: 0;
+    }
+}
+
+.pdfItem__body {
+    height: 96%;
+    width: 100%;
+    padding: 7%;
+}
+
+.pdfItem__img {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pdfItem__image {
+    // width: 100%;
+    height: 100%;
+}
+
+.pdfItem__title {
+    height: 40%;
+    color: var(--color-4d4d4d);
+    font-size: 1.875rem;
+    line-height: 2.31rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pdfItem__line {
+    background-color: var(--color-7bc25a);
+    height: 4%;
+    width: 100%;
+}
+
+.pdfItem.active .pdfItem__line {
+    background-color: var(--color-2c6adb);
+}
+
+.paperInfo__linkWrapper {
+    // justify-content: flex-end;
+}
+
+.paperInfo__link {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    text-decoration: underline;
+    text-align: end;
+    a {
+        color: var(--color-4d4d4d);
+    }
+    
+}

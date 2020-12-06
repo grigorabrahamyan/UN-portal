@@ -1,0 +1,88 @@
+.marker__relative {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: var(--color-2c6adb);
+    opacity: 1;
+    position: relative;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &::before {
+        content: '';
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        z-index: 51;
+        background-color: var(--color-2c6adb);
+        opacity: 0.6;
+    }
+    &:hover .marker__absolute {
+        position: absolute;
+        bottom: 70%;
+        left: 50%;
+        width: 300px;
+        height: 135px;
+        z-index: 52;
+        .marker__absolute-afterAndBefore {
+            visibility: visible;
+        }
+    }
+}
+
+.marker__absolute-afterAndBefore {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    visibility: hidden;
+    .marker__absolute-before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+        background-color: var(--color-ffffff);
+        padding: 20px;
+        box-sizing: border-box;
+        p {
+            font-size: 1rem;
+            line-height: 1.25rem;
+            font-weight: 500;
+            color: var(--color-313032);
+            &:first-child {
+                padding-bottom: 10px;
+                position: relative;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: calc(100% + 1px);
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background-color: var(--color-cbcbcb);
+                }
+            }
+            &:last-child {
+                padding-top: 10px;
+            }
+            span {
+                color: var(--color-7bc25a);
+            }
+        }
+    }
+    .marker__absolute-after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-right: 20px solid transparent;
+        border-top: 42px solid var(--color-ffffff);
+    }
+}

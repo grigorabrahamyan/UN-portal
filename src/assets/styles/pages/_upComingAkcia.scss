@@ -1,0 +1,24 @@
+.upComingAkcia__contant {
+    padding: 5.3% 0;
+}
+
+.upComingAkcia__title {
+    margin-bottom: 60px;
+}
+
+.upComingAkcia__cardsWrapper:nth-last-child(1),
+.upComingAkcia__cardsWrapper:nth-last-child(2),
+.upComingAkcia__cardsWrapper:nth-last-child(3) {
+    .card {
+        margin-bottom: 0;
+    }
+}
+
+.upComingAkcia__cardsWrapper:nth-child(even) {
+    .arrow__component-body {
+        background: var(--color-7bc25a) 0% 0% no-repeat padding-box;
+        &::after {
+            border-left: 22px solid var(--color-7bc25a);
+        }
+    }
+}

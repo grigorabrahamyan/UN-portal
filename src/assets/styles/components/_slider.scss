@@ -1,0 +1,18 @@
+.slider-contant {
+  width: 100%;
+  height: 750px;
+  position: relative;
+  img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 3;
+  }
+}
+
+.slider-contant.slider__home {
+  height: 500px;
+}

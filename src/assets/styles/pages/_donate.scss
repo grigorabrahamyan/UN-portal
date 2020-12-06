@@ -1,0 +1,36 @@
+.donate{
+  padding-top: 70px;
+}
+.donate-nav {
+  margin-bottom: 4.315rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  .nav-item {
+    flex: 0 0 50%;
+    text-align: center;
+    align-items: center;
+    .nav-link {
+      padding: 1rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: -1px;
+      cursor: pointer;
+      box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.1);
+      background-color: var(--white-two);
+      letter-spacing: 0.6px;
+      font-family: $font-family-base;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: var(--greyish-brown);
+      min-height: 170px;
+      &.active {
+        // box-shadow: inset 0 -2px $primary;
+        background-color: var(--sage);
+        color: var(--white-two);
+      }
+    }
+  }
+}

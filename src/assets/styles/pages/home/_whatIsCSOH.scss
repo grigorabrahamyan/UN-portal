@@ -1,0 +1,49 @@
+.csoh__contant {
+    background-color: var(--color-f6f6f6);
+    padding: 100px 0;
+}
+
+.csoh__titleWrapper {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    .csoh__title {
+        font-size: 2.5rem;
+        font-weight: 500;
+        height: 100%;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 60%;
+            height: 5px;
+            top: calc(100% - 5px);
+            left: 20%;
+            right: 20%;
+            background-color: var(--color-7bc25a);
+        }
+    }
+}
+
+.csoh__text {
+    color: var(--color-313032);
+    font-family: var(--font-family-montserrat-arm);
+    font-size: 1.56rem;
+    line-height: 1.875rem;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.csoh__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    .arrow__component {
+        width: 208px;
+        .arrow__component-body {
+            &::before {
+                border-left: 22px solid var(--color-f6f6f6);
+            }
+        }
+    }
+}

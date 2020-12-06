@@ -1,0 +1,48 @@
+.handle__row15 {
+    margin: 0 -15px;
+}
+
+.handle__col15 {
+    padding: 0 15px;
+}
+
+.partnersPage__contant {
+    padding: 5.3% 0;
+}
+
+.partnersPage__title {
+    margin-bottom: 60px;
+}
+
+.partnersPage__itemWrapper {
+    box-sizing: border-box;
+    height: 220px;
+    border: 3px solid var(--color-f6f6f6);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    &:hover {        
+        animation-name: box__shadow;
+        animation-duration: 300ms;
+        animation-fill-mode: forwards;
+    }
+}
+
+.partnersPage__item:nth-last-child(1),
+.partnersPage__item:nth-last-child(2),
+.partnersPage__item:nth-last-child(3),
+.partnersPage__item:nth-last-child(4) {
+    .partnersPage__itemWrapper {
+        margin-bottom: 0;
+    }
+}
+
+.partnersPage__img {
+    height: 50%;
+    img {
+        height: 100%;
+    }
+}

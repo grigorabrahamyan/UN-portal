@@ -1,0 +1,21 @@
+.page-title {
+  padding-bottom: 28px;
+  position: relative;
+  margin-bottom: 28px;
+  &:after{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 5px;
+    background-color:  var(--sage);
+    left: 0;
+    top: 100%;
+  }
+  h1 {
+    font-size: var(--font-size-40);
+    color:var(--greyish-brown);
+    margin: 0;
+    font-weight: 500;
+    font-family: $font-family-base;
+  }
+}

@@ -1,0 +1,38 @@
+.socialWorker__contant {
+    padding: 5.3% 0;
+}
+
+.socialWorker__title {
+    margin-bottom: 60px;
+}
+
+.socialWorker__menusType {
+    margin-bottom: 60px;
+}
+
+.socialWorker__menuWrapper {
+    margin: 0 -35px;
+    color: var(--color-4d4d4d);
+    display: flex;
+    p {
+        padding: 0 35px;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: calc(100% - 0.5px);
+            width: 1px;
+            height: 100%;
+            background-color: var(--color-7bc25a);
+        }
+        span {
+            cursor: pointer;
+        }
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+    }
+}
